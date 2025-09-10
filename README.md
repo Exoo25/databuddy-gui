@@ -24,7 +24,7 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 
 ---
 
-## 🗺 Roadmap
+## 🗺 Future Plans
 - Table view with Excel-like functions (filter, sort, sum)  
 - Python snippets for advanced data manipulation  
 
