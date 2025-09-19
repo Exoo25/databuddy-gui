@@ -31,7 +31,7 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 ---
 
 ## 📷 Screenshots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7" />
+<img width="2000" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7" />
 
 
 ---
