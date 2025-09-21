@@ -1,13 +1,13 @@
 # 📊 DataBuddy
 
 A lightweight, all-in-one **data utility** for quickly converting, securing, and visualizing your files.  
-DataBuddy makes working with everyday data formats[^1] simple, even if you’re not a spreadsheet pro.
+DataBuddy makes working with everyday data formats simple, even if you’re not a spreadsheet pro.
 
 ---
 
 ## ✨ Features
 
-- 🔄 **Format Conversion** – [^1]: JSON ⇄ YAML ⇄ CSV ⇄ XLSX  
+- 🔄 **Format Conversion** –  JSON ⇄ YAML ⇄ CSV ⇄ XLSX  
 - 🔐 **Encrypt & Decrypt Files** – password-based protection  
 - 📈 **Interactive Charts** – Bar, Line, Pie, Donut, Area with legends, percentages, custom colors  
 - 🖼 **Export Charts** – save any chart to **PNG**
@@ -30,12 +30,15 @@ DataBuddy makes working with everyday data formats[^1] simple, even if you’re 
 
 
 ## 🔔 Update Log
-- [09/21/2025] Added **data files[^1]** to **HTML** conversion with html saving.
+- [09/21/2025] Added **data files** to **HTML** conversion with html saving.
 ---
 
 ## 📷 Screenshots
 <img width="2000" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7" />
-
+<div style="flex: 1; padding: 10px; height:100%;">
+  ## 🔔 Update Log
+    - [09/21/2025] Added **data files** to **HTML** conversion with html saving.
+</div>
 
 ---
 
