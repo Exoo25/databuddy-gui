@@ -1,13 +1,13 @@
 # 📊 DataBuddy
 
 A lightweight, all-in-one **data utility** for quickly converting, securing, and visualizing your files.  
-DataBuddy makes working with everyday data formats simple, even if you’re not a spreadsheet pro.
+DataBuddy makes working with everyday data formats[^1] simple, even if you’re not a spreadsheet pro.
 
 ---
 
 ## ✨ Features
 
-- 🔄 **Format Conversion** – JSON ⇄ YAML ⇄ CSV ⇄ XLSX  
+- 🔄 **Format Conversion** – [^1]: JSON ⇄ YAML ⇄ CSV ⇄ XLSX  
 - 🔐 **Encrypt & Decrypt Files** – password-based protection  
 - 📈 **Interactive Charts** – Bar, Line, Pie, Donut, Area with legends, percentages, custom colors  
 - 🖼 **Export Charts** – save any chart to **PNG**
@@ -16,7 +16,7 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 
 ## 🚀 Get Started
 
-[![Download DataBuddy](https://img.shields.io/badge/⬇_Download-Now-blue?style=for-the-badge)](https://github.com/Exoo25/databuddy-gui/releases/download/v1.0/main.exe)
+[![Download DataBuddy](https://img.shields.io/badge/⬇_Download-Now-blue?style=for-the-badge)](https://github.com/Exoo25/databuddy-gui/releases/download/v1.1/main.exe)
 
 1. Click the **Download** badge above.
 2. Run `main.exe` (no install needed).
@@ -28,6 +28,9 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 - Table view with Excel-like functions (filter, sort, sum)  
 - Python snippets for advanced data manipulation  
 
+
+## 🔔 Update Log
+- [09/21/2025] Added **data files[^1]** to **HTML** conversion with html saving.
 ---
 
 ## 📷 Screenshots
