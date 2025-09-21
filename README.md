@@ -12,6 +12,10 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 - 📈 **Interactive Charts** – Bar, Line, Pie, Donut, Area with legends, percentages, custom colors  
 - 🖼 **Export Charts** – save any chart to **PNG**
 
+## 🔔 Update Logs
+
+- [09/21/2025] Added **data files** to **HTML** conversion with html saving.
+
 ---
 
 ## 🚀 Get Started
@@ -26,19 +30,14 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 
 ## 🗺 Future Plans
 - Table view with Excel-like functions (filter, sort, sum)  
-- Python snippets for advanced data manipulation  
+- Python snippets for advanced data manipulation
 
-
-## 🔔 Update Log
-
-- [09/21/2025] Added **data files** to **HTML** conversion with html saving.
 ---
 
 ## 📷 Screenshots
-<img width="1300" height="900" alt="image" src="https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7" />
-<img width="564" height="714" alt="image" src="https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475" />
-<img width="564" height="714" alt="image" src="https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b" />
-<img width="642" height="561" alt="image" src="https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af" />
+| ![Img1](https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7) | ![Img2](https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475) |
+|---------------------------------|---------------------------------|
+| ![Img3](https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b) | ![Img4](https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af) |
 
 
 
