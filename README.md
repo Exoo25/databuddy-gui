@@ -35,9 +35,17 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 ---
 
 ## 📷 Screenshots
-| <img src="https://github.com/user-attachments/assets/f4a4698b-a771-4610-a128-f07abfb9a445" width="400" height="255"/> | <img src="https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475" width="400" height="255"/> |
-|---------------------------------|---------------------------------|
-| <img src="https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b" width="400" height="255"/> | <img src="https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af" width="400" height="255"/> |
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f4a4698b-a771-4610-a128-f07abfb9a445" width="400" height="255" /></td>
+    <td><img src="https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475" width="400" height="255" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b" width="400" height="255" /></td>
+    <td><img src="https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af" width="400" height="255" /></td>
+  </tr>
+</table>
+
 
 
 
