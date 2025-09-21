@@ -35,9 +35,10 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 ---
 
 ## 📷 Screenshots
-| ![Img1](https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7) | ![Img2](https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475) |
+| ![Image1](https://github.com/user-attachments/assets/f4a4698b-a771-4610-a128-f07abfb9a445 =400x255) | ![Image2](https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475 =400x225) |
 |---------------------------------|---------------------------------|
-| ![Img3](https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b) | ![Img4](https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af) |
+| ![Image3](https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b =400x225) | ![Image4](https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af =400x225) |
+
 
 
 
