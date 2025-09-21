@@ -30,11 +30,16 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 
 
 ## 🔔 Update Log
+
 - [09/21/2025] Added **data files** to **HTML** conversion with html saving.
 ---
 
 ## 📷 Screenshots
-<img width="2000" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7" />
+<img width="1300" height="900" alt="image" src="https://github.com/user-attachments/assets/3e31aae8-4e52-43fa-afc4-8112c29d90a7" />
+<img width="564" height="714" alt="image" src="https://github.com/user-attachments/assets/e4decd18-665a-40c6-8e29-e18653ce0475" />
+<img width="564" height="714" alt="image" src="https://github.com/user-attachments/assets/e52e8631-9e22-4c28-83af-53228672d10b" />
+<img width="642" height="561" alt="image" src="https://github.com/user-attachments/assets/29464ea0-621d-4af5-aa6f-0ab1031225af" />
+
 
 
 ---
