@@ -20,7 +20,7 @@ DataBuddy makes working with everyday data formats simple, even if you’re not 
 
 ## 🚀 Get Started
 
-[![Download DataBuddy](https://img.shields.io/badge/⬇_Download-Now-blue?style=for-the-badge)](https://github.com/Exoo25/databuddy-gui/releases/download/v1.1/main.exe)
+[![Download DataBuddy](https://img.shields.io/badge/⬇_Download-Now-blue?style=for-the-badge)](https://github.com/Exoo25/databuddy-gui/releases/download/1.1/main.exe)
 
 1. Click the **Download** badge above.
 2. Run `main.exe` (no install needed).
