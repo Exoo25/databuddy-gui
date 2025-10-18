@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DataBuddy — Smart Data Management</title>
+  
+  <style>
+    :root {
+      --bg: #f9fafc;
+      --card: #fff;
+      --text: #1b1b1b;
+      --gray: #6c6c6c;
+      --accent: #0078ff;
+      --border: #e2e6ea;
+      --shadow: 0 4px 16px rgba(0,0,0,0.05);
+    }
+    
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+    
+
+    /* Sidebar */
+    aside {
+      width: 280px;
+      background: var(--card);
+      border-right: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 30px 25px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      animation: slideIn 1.4s ease;
+    }
+
+    @keyframes slideIn {
+      from {transform: translateX(-100px); opacity: 0;}
+      to {transform: translateX(0); opacity: 1;}
+    }
+
+    aside h2 {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      color: var(--accent);
+    }
+
+    .updates {
+      list-style: none;
+    }
+
+    .updates li {
+      background: var(--bg);
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+      transition: all 0.3s ease;
+    }
+
+    .updates li:hover {
+      background: #eef6ff;
+      transform: translateY(-3px);
+    }
+
+    .updates b {
+      color: var(--text);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .updates time {
+      color: var(--gray);
+      font-size: 0.8rem;
+    }
+
+    /* Main */
+    main {
+      flex: 1;
+      padding: 50px 70px;
+      animation: slideIn 1.4s ease; 
+    }
+
+    @keyframes slideIn {
+      from {opacity: 0; transform: translateX(100px);}
+      to {opacity: 1; transform: translateX(0);}
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--accent);
+      letter-spacing: -1px;
+    }
+
+    header p {
+      color: var(--gray);
+      font-size: 1.15rem;
+      margin-top: 10px;
+      max-width: 700px;
+      margin-inline: auto;
+    }
+
+    .btns {
+      margin-top: 25px;
+    }
+    a {
+      text-decoration: None;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      border:1px solid var(--accent);
+      padding: 10px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 5px;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+
+    .btn:hover {
+      background: transparent;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+
+    section h2 {
+      font-size: 1.9rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+      margin-bottom: 25px;
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;    
+    }
+
+    .feature {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+      transition: all 0.25s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .feature h3 {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .feature p {
+      color: var(--gray);
+    }
+
+    /* Downloads */
+    .downloads {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .version {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 22px;
+      box-shadow: var(--shadow);
+      transition: 0.3s;
+    }
+
+    .version:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .version h3 {
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .version p {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      color: var(--gray);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+    }
+
+    @media (max-width: 900px) {
+      body { flex-direction: column; }
+      aside { width: 100%; height: auto; border-right: none; border-top: 1px solid var(--border); }
+      main { padding: 30px 20px; }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside>
+    <h2>Latest Updates</h2>
+    <ul class="updates">
+      <li>
+        <b>v1.2 Snapshot Released</b>
+        <time>Oct 2025</time>
+        Web data editor introduced — full offline analysis added.
+      </li>
+      <li>
+        <b>v1.1 Improvements</b>
+        <time>Sept 2025</time>
+        Enhanced charts, HTML table conversion.
+      </li>
+      <li>
+        <b>v1.0 Launch</b>
+        <time>Aug 2025</time>
+        Initial release with data encryption and charts.
+      </li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main>
+    <header>
+      <h1>DataBuddy</h1>
+      <p>Offline-first professional data editing, encryption, and visualization — designed for creators, analysts, and developers.</p>
+      <div class="btns">
+        <a href="#downloads" class="btn">Download</a>
+        <a href="#features" class="btn">Explore Features</a>
+        
+      </div>
+    </header>
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>📊 Smart Data Editing</h3>
+          <p>Organize, clean, and manage datasets with a smooth local interface.</p>
+        </div>
+        <div class="feature">
+          <h3>📈 Visual Analysis</h3>
+          <p>Turn data into insights using instant graph generation and summaries.</p>
+        </div>
+        <div class="feature">
+          <h3>🔒 100% Local & Secure</h3>
+          <p>All processing happens offline — your data never leaves your system.</p>
+        </div>
+        <div class="feature">
+          <h3>⚡ Lightweight Performance</h3>
+          <p>Optimized for older hardware — fast boot, zero unnecessary dependencies.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="downloads">
+      <h2>Downloads</h2>
+      <div class="downloads">
+        <a href="https://github.com/Exoo25/databuddy-gui/releases/tag/v1.43a6">
+          <div class="version">
+            <h3>v1.2 (Snapshot)</h3>
+            <p>Includes new Streamlit-based editor. <br><b>Status:</b> Snapshot / Experimental</p>
+          </div>
+        </a>
+        <a href="https://github.com/Exoo25/databuddy-gui/releases/tag/1.1">
+          <div class="version">
+            <h3>v1.1 Stable</h3>
+            <p>Enhanced charts, smoother UI transitions, and better Excel imports.</p>
+          </div>
+        </a>
+        <a href="https://github.com/Exoo25/databuddy-gui/releases/tag/v1.0">
+          <div class="version">
+            <h3>v1.0 Launch</h3>
+            <p>Initial version with full offline mode, encryption, and analysis tools.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="about">
+      <h2>About DataBuddy</h2>
+      <p>DataBuddy is a lightweight, offline-first application designed to help creators, analysts, and developers manage and visualize their data securely. With a focus on simplicity and performance, DataBuddy offers powerful tools for data editing, analysis, and encryption without relying on cloud services.</p>
+      <p>Whether you're working with CSV files, Excel spreadsheets, or JSON data, DataBuddy provides an intuitive interface to clean, organize, and gain insights from your datasets. The built-in AI-powered visualization features allow you to generate charts and summaries effortlessly, making data analysis accessible to everyone.</p>
+      <p>Developed with privacy in mind, all processing is done locally on your machine, ensuring that your sensitive information remains secure. DataBuddy is optimized for performance on older hardware, making it a versatile choice for users across different systems.</p>
+      <p>Join the growing community of DataBuddy users and take control of your data today!</p>
+    </section>
+    <section id="comments">
+        <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://bruh-11.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </section>
+      <footer>
+      © 2025 DataBuddy by Mehdi Ali — All Rights Reserved.
+    </footer>
+  </main>
+
+  <script>
+    // Subtle hover highlight for updates
+    document.querySelectorAll('.updates li').forEach(li => {
+      li.addEventListener('mouseenter', () => li.style.borderColor = '#0078ff');
+      li.addEventListener('mouseleave', () => li.style.borderColor = '#e2e6ea');
+    });
+  </script>
+
+</body>
+<script id="dsq-count-scr" src="//bruh-11.disqus.com/count.js" async></script>
+</html>
