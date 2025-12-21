@@ -145,6 +145,43 @@
       color: var(--accent);
       transform: translateY(-2px);
     }
+    .sp-li {
+  position: relative;
+  list-style: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background: var(--accent);
+  color: var(--accent);
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sp-li:hover {
+  background: transparent;
+  color:blueviolet;
+  border: 1px solid var(--accent);
+  transform: translateY(-2px);
+}
+
+/* Bell icon badge */
+.sp-li::after {
+  content: "🔔";
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 18px;
+  height: 18px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
 
     section {
       margin-bottom: 80px;
@@ -239,6 +276,11 @@
   <aside>
     <h2>Latest Updates</h2>
     <ul class="updates">
+      <li class="sp-li">
+        <b>v1.2 Stable now available</b>
+        <time>Dec 2025</time>
+        More Features in the web editor and the web editor fully released as exe
+      </li>
       <li>
         <b>v1.2 Snapshot Released</b>
         <time>Oct 2025</time>
@@ -254,6 +296,7 @@
         <time>Aug 2025</time>
         Initial release with data encryption and charts.
       </li>
+      
     </ul>
   </aside>
 
