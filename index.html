@@ -97,8 +97,8 @@
     }
 
     @keyframes slideIn {
-      from {opacity: 0; transform: translateX(100px);}
-      to {opacity: 1; transform: translateX(0);}
+      from {opacity: 0; transform: translateY(100px);}
+      to {opacity: 1; transform: translateY(0);}
     }
 
     header {
@@ -148,6 +148,7 @@
     }
     .sp-li {
   position: relative;
+  animation:slideIn 0.5s ease;
   list-style: none;
   padding: 12px 20px;
   margin: 8px 0;
@@ -163,8 +164,10 @@
   background: transparent;
   color:blueviolet;
   border: 1px solid var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-100px);
+  
 }
+
 
 /* Bell icon badge */
 .sp-li::after {
@@ -182,6 +185,10 @@
   align-items: center;
   justify-content: center;
   border: 1px solid white;
+  transition: all 0.3s ease;
+}
+.sp-li:hover::after {
+  transform: scale(1.2);
 }
 
     section {
